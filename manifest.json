@@ -1,0 +1,16 @@
+{
+    "name": "Katano AI",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Katano AI is a Chrome extension that enables you to employ the power of ChatGPT by simply right clicking on highlighted text and selecting a premade directive to send to GPT.",
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "storage",
+        "scripting",
+        "webNavigation"
+    ],
+    "background": {
+        "service_worker": "main.js"
+    }
+}
